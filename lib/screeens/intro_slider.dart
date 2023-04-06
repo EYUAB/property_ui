@@ -27,6 +27,7 @@ class _IntroSliderState extends State<IntroSlider> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: HexColor('#ffffff'),
       body: Padding(
         padding: EdgeInsets.symmetric(vertical: 30),
         child: PageView.builder(
