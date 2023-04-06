@@ -226,7 +226,7 @@ class SignInMethods extends StatelessWidget {
                         SizedBox(width: 5,),
                         InkWell(
                           onTap: (){},
-                          child: Text('Sign up',style: TextStyle(color: HexColor('#8f41ff'),fontSize: 15,fontWeight: FontWeight.w400)))
+                          child: Text('Sign up',style: TextStyle(color: HexColor('#8f41ff'),fontSize: 15,fontWeight: FontWeight.w400),),),
                       ],
                     ),
                   ],
