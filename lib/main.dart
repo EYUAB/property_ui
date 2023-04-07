@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:proprerty_ui/screeens/log_in.dart';
+import 'package:proprerty_ui/screeens/registration.dart';
+import 'package:proprerty_ui/screeens/sign_in_method.dart';
 import 'package:proprerty_ui/screeens/splash_screen.dart';
 
 void main() {
    WidgetsFlutterBinding.ensureInitialized();
   runApp(
-    MaterialApp(home: SplashScreenWidget()));
+    MaterialApp(home: LogIn()));
 }
 
 // AnimatedSplashScreen(

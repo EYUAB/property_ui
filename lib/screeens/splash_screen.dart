@@ -1,11 +1,9 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
-import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:loading_indicator/loading_indicator.dart';
 import 'package:proprerty_ui/screeens/intro_slider.dart';
+
 
 class SplashScreenWidget extends StatefulWidget {
   const SplashScreenWidget({super.key});
@@ -61,7 +59,7 @@ class _SplashScreenWidgetState extends State<SplashScreenWidget> {
                 padding: EdgeInsets.symmetric(horizontal: 20),
                 child: AnimatedSplashScreen(
                   animationDuration: Duration(seconds: 8),
-                  splashIconSize: 600,
+                  splashIconSize: 400,
                   splashTransition: SplashTransition.fadeTransition,
                   splash: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -83,7 +81,7 @@ class _SplashScreenWidgetState extends State<SplashScreenWidget> {
                   ],
                 )
                 
-                , nextScreen: IntroSliderWidget(),
+                , nextScreen: IntroSlider(),
                 ),
               ),
             ),
